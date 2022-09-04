@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+h3 {
+    text-align: center;
+    padding: 20px;
+}
+
+.card {
+    margin: auto;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 0.2);
+    width: 70%;
+    border: none;
+    border-radius: 10px;
+}
+
+.card-content {
+    margin: 10px;
+    padding: 10px;
+}
+
+.card-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.r-1 {
+    padding-bottom: 20px;
+}
+
+.s-1 {
+    color: #000;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.s-2 {
+    color: #3475dd;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.s-3 {
+    font-size: 12px;
+    font-weight: 600;
+    width: 70%;
+}
+
+.s-4 {
+    color: gray;
+    display: block;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.bullet {
+    width: 3%;
+}
+
+.card-footer {
+    padding: 15px;
+}
+
+hr {
+    color: gray;
+}
+
+.active-span {
+    border-bottom: 1px solid #3475dd;
+}
+
+.active-card {
+    background-color: #f6f6f6;
+    border-radius: 10px;
+}
+
+.active-header {
+    color: #3475dd;
+}
+
+/* mobile breakpoint */
+@media screen and (max-width: 414px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+}
+/* tablet breakpoint */
+@media screen and (max-width: 760px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+}

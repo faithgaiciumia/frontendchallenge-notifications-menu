@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --light-gray: #ccc;
+    --neon-blue: #5451fa;
+    --pale-lavender: #dcdafe;
+    --armadillo: #4a4a4a;
+    --aluminum: #979797;
+    --white: #ffffff;
+
+    --main-font-size: 16px;
+    --bigger-font-size-a: 18px;
+    --bigger-font-size-b: 24px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--neon-blue);
+    font-size: var(--main-font-size);
+}
+
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 30%;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: var(--white);
+    border-radius: 20px;
+}
+
+.profile-bg {
+    height: 150px;
+    background-image: url(./assets/background.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.profile-pic {
+    width: 40%;
+    margin: -80px auto;
+}
+
+.profile-pic img {
+    width: 150px;
+}
+
+.details {
+    margin: 80px auto 0px auto;
+}
+
+.details span {
+    display: block;
+    margin: 15px auto;
+}
+.s-1{
+    text-align: center;
+    font-weight: 600;
+    font-size: var(--bigger-font-size-a);
+}
+.s-2{
+    text-align: center;
+    width: 90%;
+    color: var(--aluminum);
+}
+.numbers{
+    margin: 10px auto;
+    padding: 10px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.numbers span{
+    font-weight: 600;
+    text-align: center;
+}
+.numbers-footer{
+    font-weight: 200!important;
+    color: var(--aluminum);
+}
+button{
+    display: block;
+    margin: auto;
+    width: 80%;
+    padding: 15px;
+    background-color: var(--neon-blue);
+    border: none;
+    border-radius: 10px;
+    color: var(--pale-lavender);
+    font-size: var(--bigger-font-size-a);
+}
+.div-4{
+    margin: 30px auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--aluminum);
+}
+.bold{
+    font-weight: 600;
+}
+.active{
+    color: var(--neon-blue);
+}
+a{
+    text-decoration: none;
+    color: var(--pale-lavender)!important;
+}
+.active-btn{
+    background-color: var(--pale-lavender);
+    color: var(--neon-blue);
+}
